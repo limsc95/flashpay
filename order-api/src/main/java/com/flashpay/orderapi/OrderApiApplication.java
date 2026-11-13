@@ -1,4 +1,4 @@
-package com.flashpay.order;
+package com.flashpay.orderapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.flashpay.order;
+package com.flashpay.orderapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
