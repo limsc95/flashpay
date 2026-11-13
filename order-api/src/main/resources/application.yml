@@ -5,7 +5,7 @@ spring:
     virtual:
       enabled: true
   datasource:
-    url: jdbc:mysql://localhost:3306/flashpay
+    url: jdbc:mysql://localhost:23306/flashpay
     username: root
     password: root
   jpa:
