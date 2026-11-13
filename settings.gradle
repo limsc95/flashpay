@@ -1,0 +1,3 @@
+rootProject.name = 'flashpay'
+
+include 'common', 'order-api'

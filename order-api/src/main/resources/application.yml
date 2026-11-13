@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: order-api
+  threads:
+    virtual:
+      enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/flashpay
+    username: root
+    password: root
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update   # 2주차에 Flyway로 교체
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  kafka:
+    bootstrap-servers: localhost:9092
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
